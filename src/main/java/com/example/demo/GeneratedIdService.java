@@ -1,9 +1,15 @@
 package com.example.demo;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 import java.util.Random;
 
+@Component
 public class GeneratedIdService {
-    private Random random = new Random();
+
+    @Autowired
+    private Random random;
 
     public void setRandom(Random random) {
         this.random = random;
