@@ -24,7 +24,7 @@ public class GeneratedIdServiceUnitTest {
         generatedIdService.setRandom(random);
 
         String id = generatedIdService.get();
-        
+
         assertEquals("XYZ7", id);
     }
 }
