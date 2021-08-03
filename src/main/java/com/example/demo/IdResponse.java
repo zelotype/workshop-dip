@@ -1,6 +1,10 @@
 package com.example.demo;
 
 public class IdResponse {
+    public IdResponse() {
+
+    }
+
     public IdResponse(String result) {
         this.result = result;
     }
